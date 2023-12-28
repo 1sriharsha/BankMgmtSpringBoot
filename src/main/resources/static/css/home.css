@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #004a99;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #ddd;
+}
+
+.welcome-message {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+.table th {
+    background-color: #e9e9e9;
+}
+
+.btn {
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #545b62;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive table for smaller devices */
+@media screen and (max-width: 768px) {
+    .table-responsive {
+        border: 0;
+    }
+}
+
+/* Style enhancements for buttons, inputs, and table */
+.btn, .form-control {
+    height: 38px; /* Adjust the height as needed */
+}
+
+/* Enhanced visual separation for table headers */
+.table th {
+    background-color: #f8f9fa;
+}
+
+/* Additional styles for buttons on smaller screens */
+@media (max-width: 576px) {
+    .btn {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px; /* Spacing between buttons on small devices */
+   }
+}
